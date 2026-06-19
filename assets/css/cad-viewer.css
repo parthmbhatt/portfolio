@@ -9,7 +9,7 @@
 }
 
 .cad-heading {
-  margin: 0 0 1.25rem;
+  display: none;
 }
 
 .cad-heading .eyebrow {
@@ -142,7 +142,7 @@
 }
 
 .cad-readout {
-  display: none;
+  display: none !important;
 }
 
 @media (max-width: 860px) {
