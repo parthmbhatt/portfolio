@@ -14,16 +14,19 @@
 }
 
 .cad-heading .eyebrow {
+  display: none !important;
   margin: 0 0 0.45rem;
   color: #6f689b;
   font-size: 0.78rem;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
 .cad-heading h2 {
+  display: none !important;
   margin: 0;
+  font-weight: 400;
 }
 
 .cad-showcase {
