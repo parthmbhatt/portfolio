@@ -135,13 +135,18 @@
 
     <aside class="cad-panel">
       <div class="cad-tabs" role="tablist" aria-label="CAD model views">
-        <button type="button" class="active" data-cad-preset="turret">Turret Body</button>
-        <button type="button" data-cad-preset="exploded">Exploded Assembly</button>
+        <button type="button" class="active" data-cad-preset="turretV01">V1 Turret Housing</button>
+        <button type="button" data-cad-preset="turretV2">V2 Turret Housing</button>
+        <button type="button" data-cad-preset="turretV34">V3 Turret Housing</button>
+        <button type="button" data-cad-preset="turretV43">V4 Turret Housing</button>
+        <button type="button" data-cad-preset="turret">V5 Turret Housing</button>
+        <button type="button" data-cad-preset="exploded">V5 Turret Assembly - Exploded</button>
       </div>
 
       <div class="cad-readout" data-cad-readout>
-        <h3>V5.3 Turret Body</h3>
-        <p>Browser-ready GLB export with the exploded assembly available as a second view.</p>
+        <p class="eyebrow">Current View</p>
+        <h3>V1 Turret Housing</h3>
+        <p>First integration turret export with the top cover made transparent for comparison.</p>
       </div>
     </aside>
   </div>
