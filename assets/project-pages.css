@@ -489,6 +489,18 @@ figcaption {
   }
 }
 
+@media (min-width: 1400px) {
+  body.work-project-template .container,
+  body:has(.work-project-post) .container {
+    padding-left: var(--page-margin);
+  }
+
+  .work-project-post {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
 @media (max-width: 560px) {
   :root {
     --font-size: 1rem;

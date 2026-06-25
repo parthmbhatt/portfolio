@@ -26,7 +26,7 @@
 </url>
 <url>
 <loc>https://parthmbhatt.github.io/portfolio/panzer-playground.html</loc>
-<lastmod>2026-06-25T11:15:04-07:00</lastmod>
+<lastmod>2026-06-25T14:59:05-07:00</lastmod>
 <image:image>
 <image:loc>https://parthmbhatt.github.io/portfolio/media/posts/1/OS-map-crop.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -37,22 +37,6 @@
 </image:image>
 <image:image>
 <image:loc>https://parthmbhatt.github.io/portfolio/media/posts/1/system-overview.png</image:loc>
-<image:title><![CDATA[]]></image:title>
-</image:image>
-<image:image>
-<image:loc>https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/PP-Interface-bot-KiCAD-render.png</image:loc>
-<image:title><![CDATA[]]></image:title>
-</image:image>
-<image:image>
-<image:loc>https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/PP-Interface-KiCAD-brd.png</image:loc>
-<image:title><![CDATA[]]></image:title>
-</image:image>
-<image:image>
-<image:loc>https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/RC-Board-labeled.png</image:loc>
-<image:title><![CDATA[]]></image:title>
-</image:image>
-<image:image>
-<image:loc>https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/RC-board-schematc.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
@@ -68,8 +52,16 @@
 <image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/IMG_1954.JPEG</image:loc>
+<image:loc>https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/PP-Interface-bot-KiCAD-render.png</image:loc>
 <image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/PP-Interface-KiCAD-brd.png</image:loc>
+<image:title><![CDATA[Layout of interface board]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/IMG_2022.JPEG</image:loc>
+<image:title><![CDATA[The interface board IRL!]]></image:title>
 </image:image>
 <image:image>
 <image:loc>https://parthmbhatt.github.io/portfolio/media/posts/1/Pew-1.gif</image:loc>
