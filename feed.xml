@@ -3,7 +3,7 @@
     <title>Parth&#x27;s Portfolio</title>
     <link href="https://parthmbhatt.github.io/portfolio/feed.xml" rel="self" />
     <link href="https://parthmbhatt.github.io/portfolio" />
-    <updated>2026-06-25T15:08:38-07:00</updated>
+    <updated>2026-06-25T15:57:50-07:00</updated>
     <author>
         <name>Parth Bhatt</name>
     </author>
@@ -33,7 +33,7 @@
 <article class="project" aria-labelledby="project-title"><header class="project-header">
 <div><span class="kicker">Systems architecture / electromechanical interconnects</span>
 <h1 id="project-title">Multi-Joint Electromechanical Interconnect Architecture</h1>
-<p class="project-summary">I owned the interconnect architecture for a humanoid platform, translating early program needs, component placement, motion constraints, and packaging constraints into a power and signal distribution strategy. The work involved mechanical packaging, cable management, connector selection, high-speed signaling constraints, vendor management over a highly compressed prototyoe schedule.</p>
+<p class="project-summary">I owned the interconnect architecture for a humanoid platform, translating early program needs, component placement, motion constraints, and packaging constraints into a power and signal distribution strategy. The work involved mechanical packaging, cable management, connector selection, high-speed signaling constraints, vendor management over a highly compressed prototype schedule.</p>
 <div class="tags" aria-label="Skills shown"> </div>
 </div>
 <aside class="snapshot" aria-label="Project snapshot">
@@ -138,7 +138,7 @@
     </h2>
 
   <p>
-    Platform:&nbsp;1:30 Scale Heng Long M26 Pershing tank toy<br>    FPV:&nbsp;Walksnail FPV HD Cam + TX and Walksnail RX kit<br>    Terrain: Pink Extruded Polystyrene<br><br>
+    <b>Platform:</b>&nbsp;I modified a <a href="https://www.amazon.com/Remote-Control-2-4Ghz-Pershing-Battle/dp/B07D9CWGRS/ref=sr_1_1?crid=134WCEJNPIZSU&amp;dib=eyJ2IjoiMSJ9.n8QGSsCauZzIif5eGi9XU_X6BN1ZY6LV2kpYqCvU27C59RSj4Ksjcrvk8vM8BhW-2HGSk6I-3akt3oBS0XFaSUz9CHW7uhMj9VJ4PutublLUZg2dOLP9mGlJvPCD_gryEaV2VF6AQB-CGwpTSBI1dHS76puW6HapxIlj67FaQ10aoMLDNjhq5IvvSBsC9USAn-5p4Ucb4qxVgw6vKkwh5jfJlaeBaINT-4UnIFI49cSZ3skMQd2vJDs_P_ZQ-WKkHcf_-Z2bw97Yux6PPTL9JwZ8YcFhp61snMPuEBpemj0.vuu2p-urHSee2gprVaqp9EJKUpfGiQlD9HRrLfdfK0c&amp;dib_tag=se&amp;keywords=heng+long+1%2F30&amp;qid=1782427560&amp;sprefix=heng+long+1%2F3%2Caps%2C202&amp;sr=8-1" target="_blank">1:30 scale toy tank</a>, added some interaction/feedback elements<br><b>    FPV:</b>&nbsp;<a href="https://www.caddxfpv.com/products/walksnail-avatar-hd-kit-v2-dual-antenna" target="_blank">Walksnail FPV HD Cam </a>TX +RX system<br><b>    Terrain:</b> Pink Extruded Polystyrene, wood, construction adhesive, and loads of paint<br><br>
   </p>
 
     <h2 id="when">

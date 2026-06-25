@@ -127,26 +127,6 @@ button:focus,
   overflow: hidden;
 }
 
-.page::before,
-.page::after {
-  content: "";
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 1px;
-  background: rgba(var(--dark-rgb), 0.05);
-  pointer-events: none;
-  z-index: -1;
-}
-
-.page::before {
-  left: 40vw;
-}
-
-.page::after {
-  left: 80vw;
-}
-
 .site-header {
   min-height: 3rem;
   display: flex;
@@ -231,7 +211,6 @@ button:focus,
 .project {
   margin-top: 4.5rem;
   padding-top: 3.4rem;
-  border-top: 1px solid var(--hairline);
 }
 
 .project-header {
@@ -292,14 +271,15 @@ button:focus,
 
 .project-body {
   display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(18rem, 0.88fr);
-  gap: 3.5rem;
+  grid-template-columns: minmax(0, 1fr);
+  gap: calc(var(--baseline) * 8);
   margin-top: calc(var(--baseline) * 12);
   align-items: start;
 }
 
 .visual {
   margin: 0;
+  width: 100%;
 }
 
 .visual-box {
@@ -352,6 +332,7 @@ button:focus,
   display: block;
   height: auto;
   min-height: 0;
+  max-width: 100%;
   position: static;
 }
 
@@ -397,11 +378,25 @@ figcaption {
   margin-top: calc(var(--baseline) * 3);
   color: var(--gray-1);
   font-size: 0.78rem;
+  max-width: 58rem;
 }
 
 .notes {
   display: grid;
-  gap: 1.55rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem 2.5rem;
+  align-items: start;
+}
+
+.note {
+  border-top: 2px solid rgba(var(--color-rgb), 0.35);
+  min-width: 0;
+  padding-top: calc(var(--baseline) * 3);
+}
+
+.note:nth-child(n + 4) {
+  grid-column: 1 / -1;
+  max-width: 68rem;
 }
 
 .note h3 {
@@ -481,6 +476,15 @@ figcaption {
   .project-body,
   .project-footer {
     grid-template-columns: 1fr;
+  }
+
+  .notes {
+    grid-template-columns: 1fr;
+  }
+
+  .note:nth-child(n + 4) {
+    grid-column: auto;
+    max-width: none;
   }
 
   .visual-box,
