@@ -3,7 +3,7 @@
     <title>Parth&#x27;s Portfolio</title>
     <link href="https://parthmbhatt.github.io/portfolio/feed.xml" rel="self" />
     <link href="https://parthmbhatt.github.io/portfolio" />
-    <updated>2026-06-25T15:00:04-07:00</updated>
+    <updated>2026-06-25T15:08:38-07:00</updated>
     <author>
         <name>Parth Bhatt</name>
     </author>
@@ -274,6 +274,11 @@
         <img loading="lazy" src="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/IMG_1957-thumbnail.JPEG" height="576" width="768" alt="" >
       </a>
       <figcaption>hand-made interface board system </figcaption>
+    </figure><figure class="gallery__item">
+      <a href="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/First-manual-wiring-pass.gif" data-size="960x540">
+        <img loading="lazy" src="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/First-manual-wiring-pass.gif" height="540" width="960" alt="" >
+      </a>
+      <figcaption>I got pretty far before I realized that I simply had to go with a custom PCBA for this</figcaption>
     </figure>
     </div>
   </div>
@@ -304,11 +309,7 @@
   </p>
 
   <p>
-    The Turret system contains a 2S lipo pack that drives the TX unit + Camera, as well as a cooling fan. The TX system consumed far more power than I had initially budgeted for and this along with the need for active cooling (This TX unit is designed to be in a drone, not a land vehicle)
-  </p>
-
-  <p>
-    The hull system (Green) consists of The RC tank PCBA, which is connected to various I/Os (IR TX LED, IR RX LED, Life count LEDs, Motors, Machinegun LED), The custom Interface PCB (Which performs level-shifting, some switching, and exposes the Xiao's pins to the sensor tap wiring harness), and the 3.7V 1S Lipo pack (which drives both the RC Tank's native system, as well as the Xiao, and the 'UI' LEDs in the turret)
+    The hull system consists of The RC tank PCBA, which is connected to various I/Os (IR TX LED, IR RX LED, Life count LEDs, Motors, Machinegun LED), The custom Interface PCB (Which performs level-shifting, some switching, and exposes the Xiao's pins to the harness that connects to the RC board's control signals), and the 3.7V 1S Lipo pack (which drives both the RC Tank's native system, as well as the Xiao, and the 'UI' LEDs in the turret)
   </p>
 
     <h3 id="interaction-andamp-terrain">
