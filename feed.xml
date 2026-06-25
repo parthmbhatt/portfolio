@@ -3,7 +3,7 @@
     <title>Parth&#x27;s Portfolio</title>
     <link href="https://parthmbhatt.github.io/portfolio/feed.xml" rel="self" />
     <link href="https://parthmbhatt.github.io/portfolio" />
-    <updated>2026-06-18T21:15:36-07:00</updated>
+    <updated>2026-06-24T21:47:23-07:00</updated>
     <author>
         <name>Parth Bhatt</name>
     </author>
@@ -16,20 +16,32 @@
         </author>
         <link href="https://parthmbhatt.github.io/portfolio/panzer-playground.html"/>
         <id>https://parthmbhatt.github.io/portfolio/panzer-playground.html</id>
+        <media:content url="https://parthmbhatt.github.io/portfolio/media/posts/1/application-graphic.png" medium="image" />
+            <category term="Personal"/>
 
         <updated>2026-06-17T17:36:50-07:00</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://parthmbhatt.github.io/portfolio/media/posts/1/application-graphic.png" alt="" />
                     What? An interactive FPV (First-Person View) tank battle game on an 8ft x 8ft arena. For my first-ever OpenSauce Exhibit,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://parthmbhatt.github.io/portfolio/media/posts/1/application-graphic.png" class="type:primaryImage" alt="" /></p>
                 
     <figure class="post__image post__image--full">
       <img loading="lazy" src="https://parthmbhatt.github.io/portfolio/media/posts/1/Banner-Crop-1.JPG" height="731" width="2048" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://parthmbhatt.github.io/portfolio/media/posts/1/responsive/Banner-Crop-1-xs.JPG 384w ,https://parthmbhatt.github.io/portfolio/media/posts/1/responsive/Banner-Crop-1-sm.JPG 600w ,https://parthmbhatt.github.io/portfolio/media/posts/1/responsive/Banner-Crop-1-md.JPG 768w ,https://parthmbhatt.github.io/portfolio/media/posts/1/responsive/Banner-Crop-1-lg.JPG 1200w ,https://parthmbhatt.github.io/portfolio/media/posts/1/responsive/Banner-Crop-1-xl.JPG 1600w">
       
     </figure>
+
+  <div class="post__toc">
+    <h3>Contents</h3>
+    <ul>
+      <li><a href="#what">What?</a></li><li><a href="#why">  Why?</a></li><li><a href="#how">How?</a></li><li><a href="#when">When?</a></li><li><a href="#resultlessbrgreater">  Result:<br></a></li><li><a href="#workflows">Workflows:</a><ul><li><a href="#systemlessbrgreater">System<br></a></li><li><a href="#mechanical">Mechanical</a></li><li><a href="#electrical">Electrical</a></li><li><a href="#interaction-andamp-terrain">Interaction &amp; Terrain</a></li><li><a href="#art">Art</a></li></ul></li>
+    </ul>
+  </div>
+  
 
     <h2 id="what">
       What?
@@ -75,51 +87,57 @@
     <h2 id="resultlessbrgreater">
         Result:<br>
     </h2>
+<div><div style="width:100%;aspect-ratio:16/9;overflow:hidden;background:#000;">
+  <video loading="lazy"     autoplay
+    muted
+    loop
+    playsinline
+    preload="metadata"
+    poster="https://parthmbhatt.github.io/portfolio/final-reaction-cut-poster.jpg"
+    style="width:100%;height:100%;object-fit:cover;display:block;"
+  >
+    <source src="https://parthmbhatt.github.io/portfolio/final-reaction-cut-loop-1280.webm" type="video/webm">
+    <source src="https://parthmbhatt.github.io/portfolio/final-reaction-cut-loop-1280.mp4" type="video/mp4">
+  </video>
+</div></div>
 
     <figure class="post__image post__image--center">
       <img loading="lazy" src="" height="" width="" alt=""  data-is-external-image="true">
       
     </figure>
+<hr class="separator separator--dots" />
 
-  <p>
-    Workflows
-  </p>
-
-  <p>
-    System<br>    Mechanical<br>    Electrical<br>    Interaction<br>    Art
-  </p>
-
-  <p>
-      <br><br><br>
-  </p>
+    <h2 id="workflows">
+      Workflows:
+    </h2>
 
     <h3 id="systemlessbrgreater">
       System<br>
     </h3>
 
   <p>
-    The main challenge here was to build a cohesive experience around an existing platform, while supporting very low latency Video streaming in an extremely noisy RF environment.<br>    This involved reverse-engineering the RC tanks' electrical layout and signalling structure, then finding creative ways to interpret the internal system state.
+    The main challenge here was to build a cohesive experience around an existing platform, while supporting very low latency Video streaming in an extremely noisy RF environment.<br>    This involved reverse-engineering the RC tanks' electrical layout and signalling structure, then finding creative ways to interpret the internal system state without interrupting it's operation.
   </p>
 
   <p>
     
   </p>
 
-    <figure class="post__image post__image--wide">
+    <figure class="post__image post__image--center">
       <img loading="lazy" src="https://parthmbhatt.github.io/portfolio/media/posts/1/system-overview.png" height="720" width="1280" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://parthmbhatt.github.io/portfolio/media/posts/1/responsive/system-overview-xs.png 384w ,https://parthmbhatt.github.io/portfolio/media/posts/1/responsive/system-overview-sm.png 600w ,https://parthmbhatt.github.io/portfolio/media/posts/1/responsive/system-overview-md.png 768w ,https://parthmbhatt.github.io/portfolio/media/posts/1/responsive/system-overview-lg.png 1200w ,https://parthmbhatt.github.io/portfolio/media/posts/1/responsive/system-overview-xl.png 1600w">
       <figcaption>Simplified system structure</figcaption>
     </figure>
-
-  <p>
-    <br>  <br><br><br>
-  </p>
 
     <h3 id="mechanical">
       Mechanical
     </h3>
 
   <p>
-    The main challenge here was packaging the FPV hardware, cooling, battery, antennae, and UI elements into the existing tank geometry without compromising serviceability or the vehicle’s silhouette. This involved redesigning the turret around the camera +TX&nbsp; stack, preserving the original hull interface, and iterating through CAD and printed prototypes to balance fit, airflow, wiring access, and durability.
+    Mechanically, the work cantered on packaging the FPV hardware, cooling, battery, antennae, and UI elements into the existing tank geometry without compromising serviceability or the vehicle’s silhouette. This involved redesigning the turret around the camera and video transmitter stack, preserving the original hull interface, and iterating through CAD and printed prototypes to balance fit, airflow, wiring access, and durability.
+  </p>
+
+  <p>
+    Additionally, to accommodate the Xiao S3, and other supporting electronics, modifications were made to the interior of the hull subassembly, and the interior was 3D-scanned to reproduce the intricate injection-molded geometry
   </p>
 <div><section class="cad-band" id="cad" data-cad-viewer>
   <div class="cad-heading">
@@ -159,6 +177,66 @@
     </h3>
 
   <p>
+    The electrical work focused on reading useful signals about the game state from the (closed) toy platform and turning them into dependable gameplay inputs. This involved probing the original PCB behavior, interpreting LED and control states, adding microcontroller-based sensing, and building wiring that could survive repeated assembly, testing, and event use.
+  </p>
+
+  <div  class="gallery-wrapper carousel">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/PP-Interface-bot-KiCAD-render.png" data-size="1367x612">
+        <img loading="lazy" src="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/PP-Interface-bot-KiCAD-render-thumbnail.png" height="344" width="768" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/PP-Interface-KiCAD-brd.png" data-size="1115x543">
+        <img loading="lazy" src="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/PP-Interface-KiCAD-brd-thumbnail.png" height="374" width="768" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/RC-Board-labeled.png" data-size="3870x1828">
+        <img loading="lazy" src="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/RC-Board-labeled-thumbnail.png" height="363" width="768" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/RC-board-schematc.png" data-size="3230x2231">
+        <img loading="lazy" src="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/RC-board-schematc-thumbnail.png" height="530" width="768" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+  <div  class="gallery-wrapper carousel">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/IMG_1955.JPEG" data-size="2048x1536">
+        <img loading="lazy" src="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/IMG_1955-thumbnail.JPEG" height="576" width="768" alt="" >
+      </a>
+      <figcaption>Side view</figcaption>
+    </figure><figure class="gallery__item">
+      <a href="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/IMG_1956.JPEG" data-size="2048x1536">
+        <img loading="lazy" src="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/IMG_1956-thumbnail.JPEG" height="576" width="768" alt="" >
+      </a>
+      <figcaption>Iso View</figcaption>
+    </figure><figure class="gallery__item">
+      <a href="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/IMG_1957.JPEG" data-size="2048x1536">
+        <img loading="lazy" src="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/IMG_1957-thumbnail.JPEG" height="576" width="768" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/IMG_1954.JPEG" data-size="2048x1536">
+        <img loading="lazy" src="https://parthmbhatt.github.io/portfolio/media/posts/1/gallery/IMG_1954-thumbnail.JPEG" height="576" width="768" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+
+  <p>
+    The Turret system contains a 2S lipo pack that drives the TX unit + Camera, as well as a cooling fan. The TX system consumed far more power than I had initially budgeted for and this along with the need for active cooling (This TX unit is designed to be in a drone, not a land vehicle)
+  </p>
+
+  <p>
     The Turret system contains a 2S lipo pack that drives the TX unit + Camera, as well as a cooling fan. The TX system consumed far more power than I had initially budgeted for and this along with the need for active cooling (This TX unit is designed to be in a drone, not a land vehicle)
   </p>
 
@@ -166,13 +244,45 @@
     The hull system (Green) consists of The RC tank PCBA, which is connected to various I/Os (IR TX LED, IR RX LED, Life count LEDs, Motors, Machinegun LED), The custom Interface PCB (Which performs level-shifting, some switching, and exposes the Xiao's pins to the sensor tap wiring harness), and the 3.7V 1S Lipo pack (which drives both the RC Tank's native system, as well as the Xiao, and the 'UI' LEDs in the turret)
   </p>
 
-    <h3 id="interactionlessbrgreater-lessbrgreaterlessbrgreaterlessbrgreater">
-      Interaction<br>  <br><br><br>
+    <h3 id="interaction-andamp-terrain">
+      Interaction &amp; Terrain
     </h3>
 
-    <h3 id="artlessbrgreater-lessbrgreaterlessbrgreaterlessbrgreater">
-      Art<br>  <br><br><br>
+  <p>
+    The goal here was to build in the right visuals to communicate game function as well as state (did I fire the cannon? did I hit? did I get hit?). Software with real-time GUI drawing would have been ideal to help with this, but I was not confident about implementing that within my timeline. I instead opted to create the 'GUI' inside of the camera's FOV.<br>
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://parthmbhatt.github.io/portfolio/media/posts/1/Pew-1.gif" height="540" width="960" alt="" >
+      
+    </figure>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://parthmbhatt.github.io/portfolio/media/posts/1/Pew-2.gif" height="540" width="960" alt="" >
+      <figcaption>The updated firing interaction</figcaption>
+    </figure>
+
+  <p>
+    I also realized through playtesting that I had created movement islands, causing players to have to halt and, figure out how to turn around any time forward movement was restricted. To help with this, I raised the camera's angle to 'see' more useful terrain, and also added a third bridge layer, along with increasing the number of ramps and connections.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://parthmbhatt.github.io/portfolio/media/posts/1/dead-ends-illus-2.png" height="1617" width="3133" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://parthmbhatt.github.io/portfolio/media/posts/1/responsive/dead-ends-illus-2-xs.png 384w ,https://parthmbhatt.github.io/portfolio/media/posts/1/responsive/dead-ends-illus-2-sm.png 600w ,https://parthmbhatt.github.io/portfolio/media/posts/1/responsive/dead-ends-illus-2-md.png 768w ,https://parthmbhatt.github.io/portfolio/media/posts/1/responsive/dead-ends-illus-2-lg.png 1200w ,https://parthmbhatt.github.io/portfolio/media/posts/1/responsive/dead-ends-illus-2-xl.png 1600w">
+      <figcaption>Dead ends in V1 map</figcaption>
+    </figure>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="" height="" width="" alt=""  data-is-external-image="true">
+      
+    </figure>
+
+    <h3 id="art">
+      Art
     </h3>
+
+  <p>
+      <br><br><br>
+  </p>
 
   <p>
     
