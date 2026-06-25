@@ -3,7 +3,7 @@
     <title>Parth&#x27;s Portfolio</title>
     <link href="https://parthmbhatt.github.io/portfolio/feed.xml" rel="self" />
     <link href="https://parthmbhatt.github.io/portfolio" />
-    <updated>2026-06-25T14:59:05-07:00</updated>
+    <updated>2026-06-25T15:00:04-07:00</updated>
     <author>
         <name>Parth Bhatt</name>
     </author>
@@ -73,12 +73,7 @@
 </div>
 </div>
 <footer class="project-footer" aria-label="Project outcomes">
-<section class="footer-note">
-<h3>Outcomes</h3>
-<ul>
-<li> </li>
-</ul>
-</section>
+<section class="footer-note"></section>
 </footer></article>
 </div>
             ]]>
