@@ -127,6 +127,18 @@ button:focus,
   overflow: hidden;
 }
 
+body.work-project-template.lines::before,
+body.work-project-template.lines::after,
+body.work-project-template .lines::before,
+body.work-project-template .lines::after,
+body:has(.work-project-post).lines::before,
+body:has(.work-project-post).lines::after,
+body:has(.work-project-post) .lines::before,
+body:has(.work-project-post) .lines::after {
+  content: none !important;
+  display: none !important;
+}
+
 .site-header {
   min-height: 3rem;
   display: flex;
@@ -278,7 +290,10 @@ button:focus,
 }
 
 .visual {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(var(--color-rgb), 0.18);
   margin: 0;
+  padding: clamp(1rem, 2.8vw, 2rem);
   width: 100%;
 }
 
@@ -375,7 +390,9 @@ button:focus,
 }
 
 figcaption {
-  margin-top: calc(var(--baseline) * 3);
+  border-top: 1px solid rgba(var(--dark-rgb), 0.08);
+  margin-top: calc(var(--baseline) * 4);
+  padding-top: calc(var(--baseline) * 3);
   color: var(--gray-1);
   font-size: 0.78rem;
   max-width: 58rem;
